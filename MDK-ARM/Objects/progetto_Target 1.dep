@@ -1,0 +1,392 @@
+Dependencies for Project 'progetto', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\Arduino.c)(0x61A59D46)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\arduino.o --omf_browse .\objects\arduino.crf --depend .\objects\arduino.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (..\Arduino.h)(0x61A59D46)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (..\Led.h)(0x61A59786)
+I (..\Puls.h)(0x61A594D2)
+F (..\clock.c)(0x61A59E02)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
+I (..\clock.h)(0x61A5A07E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+F (..\Led.c)(0x61A59D46)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (..\Led.h)(0x61A59786)
+I (..\Arduino.h)(0x61A59D46)
+I (..\Puls.h)(0x61A594D2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+F (..\main.c)(0x61BE004D)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D4)
+I (..\Led.h)(0x61A59786)
+I (..\Puls.h)(0x61A594D2)
+I (..\clock.h)(0x61A5A07E)
+I (..\Arduino.h)(0x61A59D46)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\event_groups.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\timers.h)(0x6151AA1A)
+F (..\Puls.c)(0x61BE008C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\puls.o --omf_browse .\objects\puls.crf --depend .\objects\puls.d)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (..\Puls.h)(0x61A594D2)
+I (..\Led.h)(0x61A59786)
+I (..\Arduino.h)(0x61A59D46)
+I (..\LCD.h)(0x61A5A09C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602577D4)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c)(0x5EAA9C2C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\clib_arm.o --omf_browse .\objects\clib_arm.crf --depend .\objects\clib_arm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\semphr.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\queue.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c)(0x60E557D6)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\cmsis_os2.o --omf_browse .\objects\cmsis_os2.crf --depend .\objects\cmsis_os2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include\os_tick.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\event_groups.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\timers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\semphr.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\queue.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_mpool.h)(0x5EAA9C2C)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_os2.h)(0x60AB4778)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Source\os_systick.c)(0x5EAA9C2C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\os_systick.o --omf_browse .\objects\os_systick.crf --depend .\objects\os_systick.d)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include\os_tick.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+F (RTE\Device\STM32L476VGTx\startup_stm32l476xx.s)(0x60EFC7B8)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32L476xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32l476xx.lst --xref -o .\objects\startup_stm32l476xx.o --depend .\objects\startup_stm32l476xx.d)
+F (RTE\Device\STM32L476VGTx\system_stm32l4xx.c)(0x60EFC7B8)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\system_stm32l4xx.o --omf_browse .\objects\system_stm32l4xx.crf --depend .\objects\system_stm32l4xx.d)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x5F8D4A10)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\freertos_evr.o --omf_browse .\objects\freertos_evr.crf --depend .\objects\freertos_evr.d)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\semphr.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\queue.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\event_groups.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\timers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\stream_buffer.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\event_groups.c)(0x6151AA1A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\timers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\event_groups.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\list.c)(0x6151AA1A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\MemMang\heap_4.c)(0x6151AA1A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\port.c)(0x6151AA1A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\queue.c)(0x6151AA1A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\queue.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\tasks.c)(0x6151AA1A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\timers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\stack_macros.h)(0x6151AA1A)
+F (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\timers.c)(0x6151AA1A)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\RTOS-I.\RTE\_Target_1-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include-IC:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32L476xx -D_RTE_-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\FreeRTOS.h)(0x6151AA1A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x602577DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602577DE)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61D80A2B)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x60EFC7B8)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5F8D4A4C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602577DE)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\projdefs.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\portable.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\deprecated_definitions.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\mpu_wrappers.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\task.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\list.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\queue.h)(0x6151AA1A)
+I (C:\Users\filippo.bilardo\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.3\Source\include\timers.h)(0x6151AA1A)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x61D80B6A)()
